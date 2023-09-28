@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEPSI</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./index.css">
+
+    <script src="./index.js"></script>
+</head>
+
+<body>
+
+    <section class="sec">
+        <header>
+            <a href="#"> <img src="./Images/pngwing.com (1).png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">NEWS</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Come Alive!
+                    You're the <br><span> "Pepsi Generation!"</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam id quibusdam tempora culpa cumque
+                    minima quia veniam, quasi perferendis excepturi similique eveniet, natus deserunt iste voluptatibus
+                    placeat rerum rem, ut facilis soluta nulla eum sit mollitia nesciunt? Esse amet libero maxime
+                    dolores repellat? Molestiae repellat quo reiciendis id amet recusandae?</p>
+                <a href="#view" class="btn">View All Products</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="./Images/pep01.png" alt="image1" class="pepsi">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./Images/pep01.png"
+                    onclick="imgSlider('./Images/pep01.png'); backColour('#0062be'); tColor('#0062be')"></li>
+            <li><img src="./Images/pep02.png"
+                    onclick="imgSlider('./Images/pep02.png'); backColour('#e60c2c'); tColor('#e60c2c')"></li>
+            <li><img src="./Images/pep03.png"
+                    onclick="imgSlider('./Images/pep03.png'); backColour('#1e1e1e'); tColor('#1e1e1e')"></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-threads"></i></a></li>
+        </ul>
+    </section>
+
+</body>
+
+</html>

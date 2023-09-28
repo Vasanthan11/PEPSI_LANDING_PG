@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0062be;
+    transition: 0.5s;
+}
+
+header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    position: relative;
+    max-width: 100px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    color: #fff;
+    transform: scale(1.1, 1.1);
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 700px;
+}
+
+.content .textBox h2 {
+    color: #fff;
+    font-size: 3.5em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.content .textBox h2 span {
+    font-size: 2em;
+}
+
+.content .textBox p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #fff;
+    color: #0062be;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 40px;
+    letter-spacing: 1px;
+}
+
+.content .imgBox {
+    width: 600px;
+    height: 650px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 160px;
+    margin-top: 50px;
+    
+}
+
+.content .imgBox img {
+    max-width: fit-content;
+    transition: 0.6s ease-in-out;
+
+}
+
+.content .imgBox img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    display: flex;
+    transform: translateX(-170%);
+}
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li img {
+    max-width: 70px;
+}
+
+.thumb li:hover {
+    transform: translateY(-40px);
+}
+
+.sci {
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.sci li a {
+    font-size: 2em;
+    color: white;
+}
+
+.sci li:hover {
+    transform: scale(1.2, 1.2);
+}
